@@ -4,7 +4,14 @@ var price = '100';
 // console.log(typeof price);
 
 var isHappy = true;
-console.log(typeof isHappy);
+// console.log(typeof isHappy);
 
 var romantice;
-console.log(typeof romantice);      
+// console.log(typeof romantice);      
+
+var num1 = 0.1;
+var num2 = 0.3;
+var sum = num1 + num2;
+sum = sum.toFixed(2)
+sum = parseFloat(sum);
+console.log(sum);
